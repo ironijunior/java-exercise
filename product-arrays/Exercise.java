@@ -9,7 +9,7 @@ public class Exercise {
 	}
 	
 	private static Integer multi(Integer ignore, List<Integer> input) {
-		Integer res = 0;
+		Integer res = 1;
 		for(int j = 0; j < input.size(); j++) {
 			if(j != ignore) {
 				res = res * input.get(j);
